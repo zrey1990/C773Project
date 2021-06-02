@@ -1,0 +1,255 @@
+/**********BREADCRUM**************/
+
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #003B6D;
+  }
+  
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 30px;
+  }
+  
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+  }
+  
+  ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+  }
+  
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+  }
+
+
+/****************MAIN*****************/
+body {
+    background-color: #003B6D;
+}
+
+h1 {
+    color: #6699CC;
+}
+
+h3 {
+    float: right;
+}
+
+p {
+    font-size: 20px;
+}
+
+li {
+    font-size: 20px;
+}
+
+/***************CLASSES*************/
+
+.navbar {
+    float: right;
+    padding-top: 26px;
+    word-spacing: 3px;
+}
+
+.shadow {
+    box-shadow: 10px 5px 10px 5px;
+    
+}
+
+#search {
+    font-size: 30px;
+}
+
+.navsearch {
+    padding-left: 29px;
+}
+
+/***************A-LINKS***************/
+
+a:hover {
+    color: #BDBDBD;
+}
+
+a:active {
+    background-color:#BDBDBD;
+}
+
+a {
+    color: #6699CC;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+/************HEADER**************/
+
+#header {
+    font-size: 50px;
+    padding: 10px;
+    padding-left: 90px;
+}
+
+/********PICTURES***********/
+
+#picture1 {
+    /* padding: 55px 0; */
+    width: 75px;
+    height: 75px;
+    float:left;
+    
+}
+
+#diex {
+    float: left;
+    height: 320px;
+    width: 360px;
+}
+
+#grha {
+    float: left;
+    height: 225px;
+    width: 360px;
+}
+
+#vame {
+    float: left;
+    height: 287px;
+    width: 360px;
+}
+
+#zerofour {
+    float: left;
+    height: 180px;
+}
+
+#fourone {
+    float: left;
+    height: 110px;
+    width: 300px;
+}
+
+#oneseven {
+    float: left;
+    height: 130px;
+    width: 300px;
+}
+
+#sevenmore {
+    float: left;
+    height: 92px;
+    width: 300px;
+}
+
+#bird {
+    float: left;
+    height: 339px;
+    width: 250;
+}
+
+#frwater {
+    float: left;
+}
+
+#sawater {
+    float: left;
+}
+
+#contact {
+    float: right;
+    height: 450px;
+    width: 800px;
+    margin-right: 150px;
+}
+
+#gp {
+    height: 250px;
+    width: 50%;
+    
+}
+
+#rac {
+    height: 250px;
+    width: 50%;
+    float: right;
+}
+
+#homelinks{
+    font-size: 14px;
+}
+
+.active {
+    background-color: #676767;
+    
+}
+
+/**************FOOTER****************/
+
+footer {
+    font-size: 13px;
+    float: right;
+}
+
+
+/******************SIDEBAR NAVIGATION*********************/
+
+.sidenav {
+    display: none;
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px;
+
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

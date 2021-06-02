@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="home.css">
+    <script src="menu.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    
+    <div class="navbar">
+        <a href="home.html">Home</a>
+        <a href="cats.html">Cats</a>
+        <a href="dogs.html">Dogs</a>
+        <a href="birds.html">Birds</a>
+        <a href="fish.html">Fish</a>
+        <a href="others.html">Small-Animals</a>
+        <a class="active" href="contact.html">Contact</a>
+    </div>
+    
+    <img id="picture1" src="../project/images/logo.png">
+    
+    <h1 id="header">Paradigm Pet Professionals</h1>
+
+    <span id="side" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="home.html">Home</a>
+        <a href="cats.html">Cats</a>
+        <a href="dogs.html">Dogs</a>
+        <a href="birds.html">Birds</a>
+        <a href="fish.html">Fish</a>
+        <a href="others.html">Small-Animals</a>
+        <a class="active" href="contact.html">Contact</a>
+        <form class="navsearch" action="action_page.php">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+    </div>
+
+    <ul class="breadcrumb">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <div class="shadow">
+
+    <h1><center>CONTACT</center></h1>
+
+    <img src="../project/images/contact.jpg" id="contact">
+
+    <form action="">
+            <h1>Owner's Information</h1>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname" placeholder="John" required><br><br>
+
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname" placeholder="Doe" required><br><br>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="123-456-7890" required><br><br>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="johndoe123@domain.com" required><br><br>
+
+            <label for="datetime-local">Time Zone:</label>
+            <input type="datetime-local" id="datetime-local" name="datetime-local" placeholder="Eastern Standard Time" required>
+
+    <form action="">
+            <h1>Animal's Information</h1>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Minnie" required><br><br>
+
+            <label for="type">Animal Type:</label>
+            <input type="text" id="animal" name="animal" placeholder="Pitbull" required><br><br>
+
+            <label for="age">Age</label>
+            <input type="text" id="age" name="age" placeholder="3 Months Old" required><br><br>
+
+            <textarea rows="4" cols="50" name="comment" form="usrform" placeholder="Enter Additional Comments Here"></textarea>
+            <br>
+
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+    </form>
+    </div>
+
+</body>
+
+<br>
+
+    <footer>
+        <h3>Copyright &copy; 2021 Paradigm Pet Professionals LLC</h3>
+    </footer>
+
+</html>
